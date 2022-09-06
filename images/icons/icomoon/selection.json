@@ -18,7 +18,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 27,
+        "order": 82,
         "id": 11,
         "name": "envelope",
         "prevSize": 32
@@ -45,7 +45,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 28,
+        "order": 81,
         "id": 1,
         "name": "smartphone",
         "prevSize": 32
@@ -94,7 +94,7 @@
         }
       ],
       "properties": {
-        "order": 29,
+        "order": 80,
         "id": 15,
         "name": "antenna",
         "prevSize": 32
@@ -163,7 +163,7 @@
         }
       ],
       "properties": {
-        "order": 30,
+        "order": 79,
         "id": 13,
         "name": "clock",
         "prevSize": 32
@@ -242,7 +242,7 @@
         }
       ],
       "properties": {
-        "order": 31,
+        "order": 66,
         "id": 12,
         "name": "diagram",
         "prevSize": 32
@@ -481,7 +481,7 @@
         }
       ],
       "properties": {
-        "order": 32,
+        "order": 67,
         "id": 14,
         "name": "astronaut",
         "prevSize": 32
@@ -508,7 +508,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 33,
+        "order": 68,
         "id": 9,
         "name": "instagram",
         "prevSize": 32
@@ -533,7 +533,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 34,
+        "order": 69,
         "id": 0,
         "name": "twitter",
         "prevSize": 32
@@ -558,7 +558,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 35,
+        "order": 70,
         "id": 10,
         "name": "facebook",
         "prevSize": 32
@@ -585,7 +585,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 36,
+        "order": 71,
         "id": 8,
         "name": "linkedin",
         "prevSize": 32
@@ -611,7 +611,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 37,
+        "order": 72,
         "id": 7,
         "name": "Logo-1",
         "prevSize": 32
@@ -655,7 +655,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 38,
+        "order": 73,
         "id": 6,
         "name": "Logo-2",
         "prevSize": 32
@@ -693,7 +693,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 39,
+        "order": 74,
         "id": 5,
         "name": "Logo-3",
         "prevSize": 32
@@ -722,7 +722,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 40,
+        "order": 75,
         "id": 4,
         "name": "Logo-4",
         "prevSize": 32
@@ -757,7 +757,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 41,
+        "order": 76,
         "id": 3,
         "name": "Logo-5",
         "prevSize": 32
@@ -800,7 +800,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 42,
+        "order": 77,
         "id": 2,
         "name": "Logo-6",
         "prevSize": 32
@@ -808,6 +808,39 @@
       "setIdx": 0,
       "setId": 3,
       "iconIdx": 15
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 103.132l-103.132-103.132-408.868 408.868-408.868-408.868-103.132 103.132 408.868 408.868-408.868 408.868 103.132 103.132 408.868-408.868 408.868 408.868 103.132-103.132-408.868-408.868 408.868-408.868z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Vector"
+        ],
+        "colorPermutations": {
+          "3315024313333331": [
+            {}
+          ]
+        }
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 83,
+        "id": 16,
+        "name": "Close",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 16
     }
   ],
   "height": 1024,
