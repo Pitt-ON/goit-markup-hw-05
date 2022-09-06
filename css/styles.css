@@ -165,12 +165,15 @@ img {
   color: var(--accent-txt-cl);
 }
 
-/* .current::after {
-  content: '';
-  width: 48px;
+.current::after {
+  content: "";
+  display: block;
+  flex-grow: 1;
   height: 4px;
   background-color: var(--accent-bg-cl);
-} */
+  border-radius: 2px;
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+}
 
 .header-contacts {
   display: flex;
