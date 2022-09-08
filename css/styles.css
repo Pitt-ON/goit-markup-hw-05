@@ -24,6 +24,8 @@
   --portfolio-brd-cl: 1px solid #eeeeee;
   --indent: 30px;
   --items: 3;
+
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -154,6 +156,8 @@ img {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--basic-txt-cl);
+
+  transition: color var(--animation);
 }
 
 .header-nav-link:hover,
@@ -197,6 +201,8 @@ img {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
+
+  transition: color var(--animation);
 }
 
 .header-contacts-mail:hover,
@@ -250,7 +256,7 @@ img {
 .head-button {
   width: 216px;
   min-height: 50px;
-  background: var(--accent-bg-cl);
+  background-color: var(--accent-bg-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
@@ -262,11 +268,13 @@ img {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   color: var(--light-txt-cl);
+
+  transition: background-color var(--animation);
 }
 
 .head-button:hover,
 .head-button:focus {
-  background: var(--accent-hdr-cl);
+  background-color: var(--accent-hdr-cl);
 }
 
 /* Модальне вікно */
@@ -466,6 +474,8 @@ img {
   color: var(--icon-cl);
   background-color: var(--basic-bg-cl);
   border-radius: 50%;
+
+  transition: color var(--animation), background-color var(--animation);
 }
 
 .team-social-icon {
@@ -510,6 +520,8 @@ img {
   height: 100%;
   color: var(--icon-cl);
   outline: transparent;
+
+  transition: color var(--animation), border-color var(--animation);
 }
 
 .clients-icon {
@@ -571,7 +583,9 @@ img {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #ffffff99;
+  color: hsla(0, 0%, 100%, 0.6);
+
+  transition: color var(--animation);
 }
 
 .footer-contacts-mail:hover,
@@ -620,6 +634,8 @@ img {
   color: var(--light-txt-cl);
   background-color: #ffffff1a;
   border-radius: 50%;
+
+  transition: background-color var(--animation);
 }
 
 .footer-social-icon {
@@ -644,7 +660,7 @@ img {
 .filters-button {
   padding: 6px 22px;
   font-family: inherit;
-  background: var(--team-bg-cl);
+  background-color: var(--team-bg-cl);
   border-radius: 4px;
   border: 0;
   cursor: pointer;
@@ -655,22 +671,52 @@ img {
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
   color: var(--basic-txt-cl);
+
+  transition: background-color var(--animation), color var(--animation), box-shadow var(--animation);
 }
 
 .filters-button:hover,
 .filters-button:focus {
-  background: var(--accent-bg-cl);
+  background-color: var(--accent-bg-cl);
   color: var(--light-txt-cl);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-inter {
-  display: block;
+.portfolio-item {
+  transition: box-shadow var(--animation);
 }
 
-.portfolio-inter:hover,
-.portfolio-inter:focus {
+.portfolio-thumb {
+  position: relative;  
+}
+
+.portfolio-overlay {
+  font size: 18px;
+Line height: 28px;
+Line height: 133%;
+Align: Left;
+Vertical align: Top;
+Letter spacing: 3%;
+}
+
+.portfolio-thumb::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  opacity: 0;
+}
+
+ .portfolio-item, .portfolio-thumb:hover::before {
+  opacity: 1;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
