@@ -169,9 +169,10 @@ img {
   color: var(--accent-txt-cl);
 }
 
-.current::after {
+.header-nav-line::after {
   content: '';
   display: block;
+  margin: -1px;
   flex-grow: 1;
   height: 4px;
   background-color: var(--accent-bg-cl);
@@ -556,12 +557,11 @@ img {
 }
 
 .page-footer .logo {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer-contacts {
-  margin-top: 20px;
   font-style: normal;
 }
 
