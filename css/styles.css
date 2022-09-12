@@ -165,7 +165,7 @@ img {
   color: var(--accent-txt-cl);
 }
 
-.header-nav-link.current {
+.current {
   color: var(--accent-txt-cl);
 }
 
